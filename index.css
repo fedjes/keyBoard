@@ -1,0 +1,30 @@
+body, .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.space {
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 2px;
+    text-align: center;
+    border-radius: 25%;
+    background-color: #196e55;
+    color: azure;
+}
+
+
+.active {
+    background-color: crimson;
+    
+}
+
+.textarea {
+    width: 100%;
+    max-width: 1580px;
+    height: 100px;
+}
